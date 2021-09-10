@@ -36,6 +36,8 @@ header{
     vertical-align: middle;
     text-decoration: none;
     color: yellow;
+}
+.nav-links:hover{
     border-style: outset;
 }
 }
