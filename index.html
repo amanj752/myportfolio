@@ -14,95 +14,80 @@
   </head>
   <body>
     <!-- header start -->
-      <div>
+  <div>
     <header class="mainheader">
-      <div class="inner_header">
-        <div id="wrapper">
-          <div class="circle icon">
-            <span class="box">
-              <ul class="mobile-nav">
-                <li>
-                    <a href="" class="nav-links">Home</a>
-                </li>
-    
-                <li>
-                    <a href="" class="nav-links">Education</a>
-                </li>
-    
-                <li>
-                    <a href="" class="nav-links">Internships</a>
-                </li>
-    
-                <li>
-                    <a href="" class="nav-links">Projects</a>
-                </li>
-    
-                <li>
-                    <a href="" class="nav-links">Blogs</a>
-                </li>
-                <li>
-                  <a href="" class="nav-links">About us</a>
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Aman Jha</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-lg-0 ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Internships</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>                              
             </ul>
-            
-            </span>          
-            <span class="line top"></span>
-            <span class="line middle"></span>
-            <span class="line bottom"></span>
           </div>
-
-      </div>
-      <div id="sidebar"></div>
-        <ul class="nav navhide">
-            <li class="active">
-                <a href="" class="nav-links">Home</a>
-            </li>
-
-            <li>
-                <a href="" class="nav-links">Education</a>
-            </li>
-
-            <li>
-                <a href="" class="nav-links">Internships</a>
-            </li>
-
-            <li>
-                <a href="" class="nav-links">Projects</a>
-            </li>
-
-            <li>
-                <a href="" class="nav-links">Blogs</a>
-            </li>
-            <li>
-              <a href="" class="nav-links">About us</a>
-          </li>
-        </ul>
-      </div>
+        </div>
+      </nav>
     </header>
-
-    </div>
-    <script type="text/javascript">
-      $("#wrapper").click( function(){
-      $(".icon").toggleClass("close");
-  });
-  </script>
+  </div>
   <!-- header ending -->
+<div class="d-flex justify-content-center">
+  <div class="card shadow-1 col-md-10 col-lg-8 d-flex flex-md-row flex-column">
+    <div class="col-md-4 d-flex justify-content-center">
+      <div class="profile-card-6 w-100"><img src="./files/profile.jpg" class="img w-100 img-responsive">
+        <div class="profile-name">AMAN
+            <br>JHA</div>
+        <div class="profile-position"></div>
+        <div class="profile-overview">
+            <div class="profile-overview">
+                <div class="row text-center">
+                    <div class="col-xs-4 d-none">
+                        <h3>35</h3>
+                        <p>Goals</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-12 p-3 d-flex flex-column justify-content-between">
+      <div>
+        <h4 class="font-san-serif">Hi Guyz 👋</h4>
+      </div>
+      <div class="align-self-start">
+        <div class="well profile">
+            <div class="col-sm-12">
+              <h4 class="my-3">I am <strong>Aman Jha</strong></h4>
+              <h5 class="mt-2">A <strong>Diploma</strong> holder in <strong>Computer Science and Engineering</strong></h5>
+              <br/>
+              <h5>From <strong>Board Of Technical Education Uttarpradesh</strong></h5>                           
+            </div>            
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 
-  <div class="card">
-    <img src="./files/profile.jpg" alt="John">
-    <h1>Aman Jha</h1>
-    <p class="title">Diploma, Computer Science and Engineering</p>
-    <p>Board Of Technical Education Uttarpradesh</p>
-  </div>
-  <br>
-  <div class="card">
-    <img src="./files/profile.jpg" alt="John">
-    <h1>Aman Jha</h1>
-    <p class="title">Diploma, Computer Science and Engineering</p>
-    <p>Board Of Technical Education Uttarpradesh</p>
-  </div>
-  <br>
-  <div class="card">
+  <div class="card d-none">
     <img src="./files/profile.jpg" alt="John">
     <h1>Aman Jha</h1>
     <p class="title">Diploma, Computer Science and Engineering</p>
@@ -111,7 +96,7 @@
   
 
 <footer>
-  <div class="footer">
+  <div class="footer d-flex justify-content-center bg-light w-100 py-3 position-absolute" style="bottom:0;">
     <p>&#169;2021 Aman Jha</p>
   </div>
 </footer>
